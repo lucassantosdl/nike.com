@@ -1,0 +1,633 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Fira Sans", Arial, sans-serif;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.header-top {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.header-top a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    color: #3f3f3f;
+    font-size: 0.89rem;
+    padding: 0px 10px;
+       
+}
+
+.header-top a:hover {
+    color: #000000;
+}
+
+.header-top img {
+    width: 30px;
+    margin: 7px;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.menu {
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+} 
+
+.menu a {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    list-style: none;
+    color: #111111;
+}
+
+.menu a:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 0px;
+    background: #111111;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+li input {
+    width: 150px;
+    height: 25px;
+    border: solid #252525 1.5px;
+    border-radius: 5px;
+    padding-left: 25px;
+    background-image: url('./img/pesquisar.svg');
+    background-repeat: no-repeat;   
+    background-size: 20px;
+    background-position: 5px;
+    outline: none;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav .menu li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu a:hover:after {
+    width: 100%;
+}
+
+.nike-bg {
+    display: flex;
+    max-width: 100vw;
+    max-width: 100%;
+    background: #12171F;
+}
+
+.nike-intro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.nike-sub img{    
+    width: 600px;  
+    border-radius: none;    
+}
+
+.nike-title h1 {
+    display: flex;
+    font-size: 3rem;
+    margin: 20px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    color: white;
+    
+}
+
+.nike-title p {
+    flex-wrap: wrap;
+    margin: 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.main3-bg {
+    max-width: 100%;
+}
+
+.main3 {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.main4 {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.jordan {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.jordan h1 {
+    background: #111111;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.jordan h1:hover {
+    font-size: 1.1rem;
+    transition: 0.4s;
+}
+
+h3 {
+    color: #111;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.menu-img {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.main4 img {
+    display: flex;
+    width: 290px;
+    margin: 0 auto;
+}
+
+.menu-imgsub {
+    font-weight: lighter;
+    color: black;
+    padding: 10px 10px 10px 0px;
+}
+
+.menu-img button {
+    margin: 10px 10px 10px 0px;
+    border: none;
+    padding: 7px;
+    background: #111;
+    border-radius: 2px;
+}
+
+.menu-img button a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: .89rem;
+}
+
+.menu-img button:hover {
+    background: black;
+}
+
+.tenis-nike {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+
+.tenis-nike h1 {
+    background: #111;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.tenis-nike h1:hover {
+    font-size: 1.1rem;
+    transition: 0.4s;
+}
+
+.footer-bg {
+    display: flex;
+    width: 100%;
+    height: 160px;
+    background: #111;
+}
+
+.footer-sub {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+}
+.footer-menu2 li {
+    margin-bottom: 10px;
+}
+
+.footer-sub a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .nike-bg {
+    height: 100%;    
+    }
+    .nike-intro {
+    display: flex;
+    margin: 0 auto;
+    }
+
+    .nike-title h1 {
+    font-size: 2.5rem;
+    }
+
+    .nike-title p {
+        font-size: 1.3rem;
+    }
+
+    .nike-sub img{    
+    width: 500px;
+    height: 100%;
+       
+    }
+    .menu-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;        
+       
+    }
+    .main4 img {
+        width: 350px;
+        margin: 0 auto;
+        font-size: 0.89rem;
+    }    
+}
+
+
+
+@media (max-width: 900px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .menu-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }   
+    
+
+    .main4 img {
+        width: 280px;
+        margin: 0 auto;
+        font-size: 1rem;
+        
+    }
+
+    .footer-sub {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+@media (max-width: 700px) {
+    .img3-4 {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 0.75rem;
+    }
+
+    .menu a {
+        padding: 7px;
+        font-size: 1rem;    
+    }
+    .menu {
+        gap: 5px;
+        display: flex;
+        flex-wrap: nowrap;   
+        margin-right: 3.5rem;
+    }
+
+    .nike-bg {
+        max-height: 100%; 
+        }
+    
+        .nike-intro {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        }
+    
+        .nike-title h1 {
+        font-size: 2.1rem;
+        }
+    
+        .nike-title p {
+            font-size: 1.2rem;
+        }
+    
+        .nike-sub img{    
+        width: 100%;        
+        }
+
+        .jordan h1 {
+            padding: 4px;
+            font-size: 0.90rem;
+        }
+
+        .tenis-nike h1 {
+            padding: 4px;
+            font-size: 0.85rem;
+        }
+
+        .main4 img {
+            width: 200px;              
+        }
+    
+        .menu-img {
+            gap: 5px;
+        }   
+
+        .footer-bg {
+            font-size: 0.89rem;
+        }
+
+}
+
+@media (max-width: 400px) {
+    .nike-intro {
+    max-height: 100%;   
+    }
+
+    .nike-intro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    }
+
+    .nike-title h1 {
+    font-size: 1.8rem;
+    }
+
+    .nike-title p {
+        font-size: 1.1rem;
+    }
+
+    .nike-sub img{    
+    width: 100vw;  
+    }
+
+    .main4 img {
+        display: flex;
+        width: 160px;
+        margin: 0 auto;
+    }  
+
+    .main4 h3 {
+        font-size: 0.90rem;
+        margin-left: 10px;
+    }
+
+    .main4 p {
+        font-size: 0.85rem;
+        margin-left: 10px;
+    }
+    .menu-img {
+        gap: 5px;
+    }    
+
+    .menu-img button {
+        padding: 4px;
+        margin-left: 10px;
+    }
+    
+    .menu-img button a {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width:300px) {
+    .main4 img {
+        display: flex;
+        width: 140px;
+        margin: 0 auto;
+    }  
+
+    .main4 h3 {
+        font-size: 0.75rem;
+        margin-left: 5px;
+        
+    }
+
+    .main4 p {
+        font-size: 0.90rem;
+        margin-left: 5px;
+        
+    }
+
+    .menu-img {
+        gap: 2px;
+    }    
+
+    .menu-img button {
+        padding: 4px;
+        margin-left: 5px;
+        
+    }
+    
+    .menu-img button a {
+        font-size: 0.75rem;
+    
+    }
+
+}
+@media (max-width: 360px) {
+    .menu {
+        margin-top: 10px;
+        margin-bottom: 10px;        
+    }
+    .menu a {
+        padding: 5px;
+        font-size: 0.80rem;             
+    }
+    .menu {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 300px) {
+    .menu {
+        margin-top: 10px;
+        margin-bottom: 10px;        
+    }
+    .menu a {
+        padding: 5px;
+        font-size: 0.70rem;             
+    }
+    .menu {
+        gap: 5px;
+    }
+}
