@@ -20,6 +20,6 @@ Esse projeto foi utilizado:
 - Javascript
 - Responsive
 
-[Site deploy] https://travel-website-ls.netlify.app/
+[Site deploy] [https://nike-website-ls.netlify.app/]
 
 Feito com ♥ by [Lucas Santos](https://github.com/lucassantosdl)
